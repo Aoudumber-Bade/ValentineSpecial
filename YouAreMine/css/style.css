@@ -177,6 +177,7 @@ body {
 .chest-drawer summary::-webkit-details-marker {
   display: none;
 }
+
 .chest-drawer details:hover:not([open]) {
   transform: translate3d(0, 0, calc(var(--depth) * 0.05px));
 }
